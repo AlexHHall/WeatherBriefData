@@ -4,7 +4,7 @@ const app = Express();
 var cors = require('cors')
 app.use(cors())
 
-const PORT = 3001;
+const PORT = 25565;
 
 app.get('/api/airport/met/:icao', (req, res) => {
   let airport_icao = req.params.icao;
