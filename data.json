@@ -61,12 +61,132 @@
             "2000_FT_WIND": "FORECAST 120/35KT",
             "REMARKS": "ON FIRST CTC WITH NZNP TWR NOTIFY RCPT OF E."
         },
-        "METAR": "METAR NZNP 010000Z AUTO 15025KT //// OVC095/// 10/04 Q1017=",
+        "METAR": "METAR NZNP 010000Z AUTO 15025KT 20KM OVC095/// 10/04 Q1017=",
         "TAF": "TAF NZNP 312307Z 0100/0112\n15025G35KT 20KM SCT050\nBECMG 0105/0107 15020KT\n2000FT WIND 14035KT\nQNH MNM 1014 MAX 1023 ="
     },
     "NZGS": {
-        "ATIS": {},
+        "ATIS": {
+            "ICAO": "NZGS",
+            "IDENTIFIER": "K",
+            "ISSUE_TIME": "0732",
+            "APCH": "RNP Z",
+            "RWY": "32",
+            "RWY_COND": "RWYCC 6/6/6 DRY/DRY/DRY",
+            "WIND": "310/12KT",
+            "VIS": "20 KM",
+            "CLD": "FEW 4000 FT",
+            "TEMPERATURE": "14",
+            "DEW_POINT": "8",
+            "QNH": "1019 HPA",
+            "2000_FT_WIND": "FORECAST 250/25KT",
+            "REMARKS": "ON FIRST CTC WITH NZGS TWR NOTIFY RCPT OF K."
+        },
         "TAF": "TAF AMD NZGS 082018Z 0820/0906\n24008KT 15KM -RA FEW060\nTEMPO 0820/0902 4000 RA\nTEMPO 0902/0906 4000 SHRA FEW020TCU\n2000FT WIND VRB05KT\nBECMG 0822/0900 22015KT\nQNH MNM 1017 MAX 1026 =",
-        "METAR": ""
+        "METAR": "METAR NZGS 250730Z AUTO 31012KT 20KM FEW040/// 14/08 Q1019="
+    },
+    "NZAA": {
+        "ATIS": {
+            "ICAO": "NZAA",
+            "IDENTIFIER": "G",
+            "ISSUE_TIME": "0620",
+            "APCH": "ILS DME",
+            "RWY": "23 LEFT",
+            "RWY_COND": "RWYCC 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY",
+            "OPR_INFO": "DUE TWY A 6 CLSD PREFERRED RWY EXIT TWY A 8.",
+            "WIND": "340/3KT 280V010. W END VRB /2KT",
+            "VIS": "30 KM",
+            "CLD": "FEW 3500 FT",
+            "TEMPERATURE": "13",
+            "DEW_POINT": "8",
+            "QNH": "1022 HPA",
+            "2000_FT_WIND": "REP 270/12KT",
+            "REMARKS": "ON FIRST CTC WITH NZAA ATC NOTIFY RCPT OF G."
+        },
+        "METAR": "METAR NZAA 250730Z AUTO 33001KT 9999 NCD 12/09 Q1022=",
+        "TAF": "TAF AMD NZAA 250657Z 2506/2612\n27010KT 9999 SCT030\nBECMG 2506/2508 34008KT\n2000FT WIND 29010KT\nBECMG 2514/2516 31020KT\nQNH MNM 1017 MAX 1026 ="
+    },
+    "NZCH": {
+        "ATIS": {
+            "ICAO": "NZCH",
+            "IDENTIFIER": "P",
+            "ISSUE_TIME": "0620",
+            "APCH": "ILS DME",
+            "RWY": "20",
+            "RWY_COND": "RWYCC 6/6/6 DRY/DRY/DRY",
+            "WIND": "190/6KT",
+            "VIS": "25 KM",
+            "WX": "LGT SH OF RA",
+            "CLD": "SCT 5000 FT OVC 7000 FT",
+            "TEMPERATURE": "11",
+            "DEW_POINT": "9",
+            "QNH": "1009 HPA",
+            "2000_FT_WIND": "REP 210/04KT",
+            "REMARKS": "ON FIRST CTC WITH NZCH ATC NOTIFY RCPT OF P."
+        },
+        "METAR": "METAR NZCH 250730Z AUTO 23008KT 9999 OVC065/// 10/09 Q1010=",
+        "TAF": "TAF AMD NZCH 250652Z 2506/2612\n20012KT 9999 -RA BKN020\nTEMPO 2506/2512 6000 RA\nBECMG 2516/2518 VRB02KT\nBECMG 2522/2600 08010KT\n2000FT WIND 20015KT\nBECMG 2517/2519 VRB05KT\nBECMG 2522/2600 08010KT\nBECMG 2603/2605 06020KT\nQNH 2506/2517 MNM 1009 MAX 1018\nQNH 2517/2612 MNM 1010 MAX 1019 ="
+    },
+    "NZQN": {
+        "ATIS": {
+            "ICAO": "NZQN",
+            "IDENTIFIER": "X",
+            "ISSUE_TIME": "0737",
+            "APCH": "RNP",
+            "RWY": "23",
+            "RWY_COND": "RWYCC 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET",
+            "WIND": "VRB /3KT",
+            "VIS": "25 KM, REDUCING 10 KM",
+            "WX": "LGT SH OF RA",
+            "CLD": "SCT 600 FT BKN 2300 FT OVC 3200 FT",
+            "TEMPERATURE": "5",
+            "DEW_POINT": "4",
+            "QNH": "1012 HPA",
+            "2000_FT_WIND": "FORECAST 080/10KT",
+            "REMARKS": "ON FIRST CTC WITH NZQN ATC NOTIFY RCPT OF X."
+        },
+        "METAR": "METAR NZQN 250730Z AUTO 06003KT 50KM DZ OVC019/// 05/04 Q1012=",
+        "TAF": "TAF AMD NZQN 250652Z 2506/2512\n18010KT 20KM -RA BKN045\n2000FT WIND 10010KT\nQNH MNM 1008 MAX 1017 ="
+    },
+    "NZPM": {
+        "ATIS": {
+            "ICAO": "NZPM",
+            "IDENTIFIER": "P",
+            "ISSUE_TIME": "0620",
+            "APCH": "RNP",
+            "RWY": "25",
+            "RWY_COND": "RWYCC 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY",
+            "OPR_INFO": "GND NOT OPR.\nGRASS RWY CLSD.",
+            "WIND": "310/4KT",
+            "VIS": "15 KM",
+            "WX": "SH IN VCY",
+            "CLD": "FEW 2500 FT SCT 4200 FT BKN 6500 FT",
+            "TEMPERATURE": "11",
+            "DEW_POINT": "9",
+            "QNH": "1018 HPA",
+            "2000_FT_WIND": "FORECAST 280/30KT",
+            "REMARKS": "ON FIRST CTC WITH NZPM TWR NOTIFY RCPT OF P."
+        },
+        "METAR": "METAR NZPM 250730Z AUTO 33004KT 15KM FEW042/// 11/09 Q1018=",
+        "TAF": "TAF AMD NZPM 250657Z 2506/2518\n30010KT 20KM SCT030\n2000FT WIND 30030KT\nBECMG 2511/2513 32040KT\nQNH MNM 1013 MAX 1022 ="
+    },
+    "NZHN": {
+        "ATIS": {
+            "ICAO": "NZHN",
+            "IDENTIFIER": "P",
+            "ISSUE_TIME": "0620",
+            "APCH": "RNP",
+            "RWY": "34",
+            "RWY_COND": "RWYCC 6/6/6 DRY/DRY/DRY",
+            "WIND": "340/4KT",
+            "VIS": "30 KM",
+            "CLD": "FEW 2000 FT",
+            "TEMPERATURE": "10",
+            "DEW_POINT": "9",
+            "QNH": "1022 HPA",
+            "2000_FT_WIND": "FORECAST 270/15KT",
+            "REMARKS": "ON FIRST CTC WITH NZWN ATC NOTIFY RCPT OF P."
+        },
+        "METAR": "METAR NZHN 250730Z AUTO 34002KT 35KM FEW026/// BKN240/// 10/09 Q1022=",
+        "TAF": "TAF AMD NZHN 250657Z 2506/2606\nVRB02KT 20KM FEW025\nBECMG 2523/2601 33010KT\n2000FT WIND 29015KT\nQNH MNM 1016 MAX 1025 ="
     }
 }

@@ -1,8 +1,10 @@
 const Express = require('express');
-const data = require('./data.json');
 const app = Express();
 var cors = require('cors')
 app.use(cors())
+
+const data = require('./data.json');
+
 
 const PORT = 25565;
 
@@ -12,7 +14,7 @@ app.get('/api/airport/met/:icao', (req, res) => {
     if (airport_data) {
         res.json(airport_data);
     } else {
-        res.json({ error: 'Airport not found' });
+        res.json({ error: `Airport '${req.params.icao}' not found` });
     }
 });
 
